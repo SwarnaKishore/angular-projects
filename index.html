@@ -3,12 +3,16 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#2196F3">
+    <meta name="theme-color" content="#00BCD4">
     <title>Angular Projects</title>
 
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
     <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+    <link href="css/style.css" type="text/css" rel="stylesheet" >
+    
+      <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
 </head>
 <body id="top" class="scrollspy">
 
@@ -31,14 +35,14 @@
                     <li><a href="#angular2">Angular 2+</a></li>
                     <li>
                                                     <!-- Dropdown Trigger -->
-                            <a class='dropdown-button' data-beloworigin="true" href='#angularjs' data-activates='dropdown1'>AngularJS <i class="mdi-navigation-arrow-drop-down right"></i></a>
+                            <a href='#angularjs'>AngularJS<!-- <i class="mdi-navigation-arrow-drop-down right"></i>--></a>
 
                             <!-- Dropdown Structure -->
-                            <ul id='dropdown1' class='dropdown-content'>
-                                <li><a href="#angularjs">AngularJS API</a></li>
-                                <li><a href="#angular-material">AngularJS Material</a></li>
-                                <li><a href="#angularjs-snippets">Snippets</a></li>
-                            </ul>
+                            <!--<ul>
+                                <li style="float: left;clear: left;"><a href="#angularjs">AngularJS API</a></li>
+                                <li style="float: left;clear: left;"><a href="#angular-material">AngularJS Material</a></li>
+                                <li style="float: left;clear: left;"><a href="#angularjs-snippets">Snippets</a></li>
+                            </ul>-->
                     </li>
                     
                 </ul>
@@ -46,12 +50,11 @@
                     <li><a href="#angular2">Angular 2+</a></li>
                     <li> <a class='dropdown-button' href='#angularjs' data-activates='dropdown1'>AngularJS</a>
 
-                            <!-- Dropdown Structure -->
-                            <ul id='dropdown1' class='dropdown-content'>
+                           <!-- <ul id='dropdown1' class='dropdown-content'>
                                 <li><a href="#angularjs">AngularJS API</a></li>
                                 <li><a href="#angular-material">AngularJS Material</a></li>
                                 <li><a href="#angularjs-snippets">Snippets</a></li>
-                            </ul></li>
+                            </ul></li>-->
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
@@ -67,11 +70,11 @@
             <span class="cd-words-wrapper waiting">
                 <b class="is-visible">angular</b>
                 <b>designing</b>
-                <b>developing</b>
+                <b>coding</b>
             </span>
         </h1>
          <div class="row center">
-          <a href="#angular2" class="btn-floating btn-large waves-effect waves-light head-link"><i class="fa fa-angle-double-down" style="background-color: white; color: #2196F3;"></i></a>
+          <a href="#angular2" class="btn-floating btn-large waves-effect waves-light head-link"><i class="fa fa-angle-double-down" style="background-color: white; color: #00BCD4;"></i></a>
         </div>
     </div>
 </div>
@@ -165,7 +168,7 @@
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">AngularJS Material Starter<i class="mdi-navigation-close right"></i></span>
-                        <p>A starter application to kick start you Angular Material projects</p>
+                        <p>A starter application to kick start your Angular Material projects</p>
                     </div>
                 </div>
             </div><!-- col-->
@@ -260,6 +263,11 @@
 
     <!--  Scripts-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+          
     <script>
      $(document).ready(function(){
     $('.dropdown-button').dropdown();
