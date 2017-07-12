@@ -7,6 +7,14 @@
     padding: 0 15px;
 }
 
+#hidden {
+  display: none;
+}
+
+#visible:hover #hidden {
+  display: block;
+}
+
 #intro, #work, #team {padding-top: 4rem;}
 
 
@@ -61,13 +69,8 @@
 
 .text_pink{color:#EF9A9A;}
 
-nav ul a {
-    font-size: 1.2rem;
-    color: #FFF;
-    letter-spacing: 2px;
-    display: block;
-    font-weight: 300;
-    padding: 0px 15px;
+nav ul li a {
+   display: block
 }
 
 .cd-headline.type .cd-words-wrapper {
