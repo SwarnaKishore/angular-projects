@@ -6,7 +6,26 @@
 .icon-block {
     padding: 0 15px;
 }
-
+.card .card-action a 
+{
+    text-transform: initial;
+}
+.fa{
+    font-size: 28px;
+}
+ .post-style
+ {
+     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+     padding-bottom: 5px;
+ }
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.font
+{
+     font-size: 28px;
+}
 #hidden {
   display: none;
 }
