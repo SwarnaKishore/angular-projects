@@ -112,6 +112,58 @@
     </div>
 </div>
 
+
+<!-- 
+
+
+
+
+
+
+
+
+<div class="wrapper">
+    		
+    		<div class="article-card radius shadowDepth1">
+    			<div class="card__image border-tlr-radius">
+    				<img src="http://lorempixel.com/400/200/sports/" alt="image" class="border-tlr-radius">
+                </div>
+
+    			<div class="card__content card__padding">
+                    <div class="card__share">
+                        <div class="card__social">  
+                            <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
+                            <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
+                            <a class="share-icon googleplus" href="#"><span class="fa fa-google-plus"></span></a>
+                        </div>
+
+                        <a id="share" class="share-toggle share-icon" [class.hidden]="!isSpecial" href="#"></a>
+                    </div>
+
+    				<article class="card__article">
+	    				<a href="#">Material Design Card - For Blog Post Article</a>
+
+	    			</article>
+    			</div>
+
+    			<div class="card__action">
+    				
+    			
+    			</div>
+    		</div>
+
+    	</div> -->
+
+
+
+
+
+
+
+
+
+
+
 <div class="section scrollspy" id="angular-articles">
     <div class="container">
         <h2 class="header text_b">Angular 2+ articles </h2>
@@ -317,9 +369,21 @@
 
 <!--   Compiled and minified JavaScript 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>-->
- 
     <script src="js/materialize.min.js"></script>
-    <script src="min/custom-min.js"></script>
+    
+    <script>
+        $(document).ready(function($) {
 
+	$('.card__share > a').on('click', function(e){ 
+		e.preventDefault() // prevent default action - hash doesn't appear in url
+   		$(this).parent().find( 'div' ).toggleClass( 'card__social--active' );
+		$(this).toggleClass('share-expanded');
+    });
+  
+});
+ 
+</script>
+<script src = "js/modernizr.js"></script>
+<script src="min/custom-min.js"></script>
     </body>
 </html>
