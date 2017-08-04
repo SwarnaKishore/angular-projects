@@ -10,17 +10,15 @@
 {
     text-transform: initial;
 }
-.fa{
-    font-size: 28px;
-}
+
  .post-style
  {
      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
      padding-bottom: 5px;
  }
 .margin{
-    margin-left: 20px;
-    margin-right: 20px;
+   margin-left: 15%;
+    margin-right: 7%;;
 }
 .font
 {
@@ -282,8 +280,9 @@ footer.page-footer {
 
 
 .wrapper {
-	max-width: 400px;
-	margin: 50px auto;
+	/*max-width: 400px;
+    margin: 0 auto;*/
+    margin-top: 3%;
 	padding-left: 1em;
 	padding-right: 1em;
 }
@@ -310,14 +309,18 @@ footer.page-footer {
     	0 1px 2px rgba(0,0,0, 0.24);      
 }
 
-
+.card .card-title{
+    font-size: 17px;
+    font-weight: 400;
+}
 /**
  * Card Styles
  */
 
 .article-card {
 	background-color: #fff;
-	margin-bottom: 1.6rem;
+    margin-bottom: 1.6rem;
+    width: 330px;
 }
 
 .card__padding {
@@ -331,18 +334,23 @@ footer.page-footer {
 	.card__image img {
 		width: 100%;
 		max-width: 100%;
-		display: block;
+        display: block;
+        height: 150px;
 	}
 
 .card__content {
 	position: relative;
 }
 
-
+.share-icon-font-size
+{
+    font-size: 18px;
+}
 /* card article */
 .card__article a {
 	text-decoration: none;
-	color: #444;
+    color: #444;
+    font-size: 17px;
 	transition: all 0.5s ease;
 }
 	.card__article a:hover {
