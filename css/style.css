@@ -294,7 +294,17 @@ footer.page-footer {
 	border-top-left-radius: 2px;
 	border-top-right-radius: 2px; 
 }
-
+.btn
+{
+    background-color: white;
+    color: #333;
+    text-transform: capitalize;
+}
+.btn:hover
+{
+    background-color: #00BCD4;
+    color: white;
+}
 .text-center { text-align: center; }
 
 .radius { border-radius: 2px; }
