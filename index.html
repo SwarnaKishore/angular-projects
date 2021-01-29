@@ -356,8 +356,8 @@
 
 <!--Footer-->
 <footer id="contact" class="page-footer default_color scrollspy">
-    <div class="footer-copyright default_color">
-       
+    <div class="footer-copyright default_color" style="margin-left: 40%;">
+        <div>Copyright © <a href="https://swarnakishore.github.io/angular-projects/">Angular Projects</a> <span id="year"></span></div>
     </div>
 </footer>
 
@@ -377,6 +377,9 @@
    		$(this).parent().find( 'div' ).toggleClass( 'card__social--active' );
 		$(this).toggleClass('share-expanded');
     });
+
+    var dt = new Date();
+    document.getElementById("year").innerHTML = dt.getFullYear();
   
 });
  
