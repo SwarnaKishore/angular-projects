@@ -3,6 +3,10 @@
 
 .default_color_text{color: #00BCD4 !important}
 
+.page-footer {
+    padding-top: 0;
+}
+
 .icon-block {
     padding: 0 15px;
 }
